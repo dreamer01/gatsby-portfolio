@@ -5,7 +5,7 @@ module.exports = {
 
   siteTitle: 'Pushpendra Singh - Portfolio', // Navigation and Site Title
   siteTitleAlt: 'Pushpendra', // Alternative Site title for SEO
-  siteUrl: 'https://portfolio-cara.netlify.com', // Domain of your site. No trailing slash!
+  siteUrl: 'https://pushpendra.netlify.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: '/logos/logo-1024.png', // Used for SEO and manifest
   siteDescription: 'Playful & Colorful One-Page website with Parallax effect',
