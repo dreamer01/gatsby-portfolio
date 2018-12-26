@@ -182,14 +182,14 @@ const Index = () => (
               link="https://github.com/dreamer01/Workout"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-              As I joined gym, I felt a need for an app where I can have record for my weekly excercises. So built one. 
+              As I joined gym first time, I felt a need for an app where I can have record for my weekly excercises and diet. So I built one. 
             </ProjectCard>
             <ProjectCard
               title="City Guide App"
               link="https://github.com/dreamer01/City-Blog"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
-              Just to practise my skill and share my bueatifull city to I built this one.
+              I built this one to practise my skills and share my beautifull birth city with others. 
             </ProjectCard>
             <ProjectCard
               title="News App"
@@ -203,7 +203,7 @@ const Index = () => (
               link="https://github.com/dreamer01/mail-simulator"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              A modern UI inspired mail simulator.
+              A modern UI/UX inspired mail simulator.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
@@ -256,16 +256,14 @@ const Index = () => (
           <AboutHero>
             <Avatar src={avatar} alt="Pushpendra Singh" />
             <AboutSub>
-              The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-              Emoji into my speech to better express myself. Winky face.
+              I'm a Full Stack Developer based in Gurugram, India. I have passion for intutive web and mobile design and love to create for web and mobile devices.
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-            every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-            make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The
-            kids want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that
-            all right?
+            Frontend Skills :  JavaScript  | React | React Native | HTML5 | CSS | jQuery <br/>
+            Backend Skills :  Express | Redux | MongoDB | GraphQL<br/>
+            Technologies : REST API | PWA | Hybrid Apps<br/>
+            Tools : Visual Studio Code | GIT | Slack | Adobe Illustrator | Adobe Photoshop
           </AboutDesc>
         </Inner>
       </Content>
