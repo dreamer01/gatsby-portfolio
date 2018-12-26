@@ -160,7 +160,9 @@ const Index = () => (
           <BigTitle>
             Hello, <br /> I'm Pushpendra Singh.
           </BigTitle>
-          <Subtitle>I'm creating web experiences for the next generation of consumer-facing companies.</Subtitle>
+          <Subtitle>
+            I'm creating web and mobile experiences for the next generation consumer-facing companies.
+          </Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
@@ -174,32 +176,32 @@ const Index = () => (
           <Title>Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="Freiheit"
-              link="https://www.behance.net/gallery/58937147/Freiheit"
+              title="Workout Dairy App"
+              link="https://github.com/dreamer01/Workout"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-              This project is my entry to Adobe's #ChallengeYourPerspective contest.
+              As I joined gym, I felt a need for an app where I can have record for my weekly excercises. So built one. 
             </ProjectCard>
             <ProjectCard
-              title="Harry Potter"
-              link="https://www.behance.net/gallery/52915793/Harry-Potter"
+              title="City Guide App"
+              link="https://github.com/dreamer01/City-Blog"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
-              I entered the DOCMA 2017 award with this Harry Potter inspired image.
+              Just to practise my skill and share my bueatifull city to I built this one.
             </ProjectCard>
             <ProjectCard
-              title="Tomb Raider"
-              link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+              title="News App"
+              link="https://newscornerapp.firebaseapp.com/"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
-              Recreation of a Tomb Raider Wallpaper (Fan Art)
+              A progressive web app that do the basic of providing you with the news around the world from all categorries and channels.
             </ProjectCard>
             <ProjectCard
-              title="Eagle"
-              link="https://www.behance.net/gallery/38068151/Eagle"
+              title="Mail Simulator"
+              link="https://github.com/dreamer01/mail-simulator"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              A fantasy image manipulation relocating the habitat of wild animals.
+              A modern UI inspired mail simulator.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
@@ -285,9 +287,11 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:pushpendra.creative@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://github.com/dreamer01">Github</a>{', '}
+            <a href="https://www.twitter.com/stud2design">Twitter</a>{', '}
+            <a href="https://dribbble.com/dreamer01">Dribbble</a> &{' '}
+            <a href="https://www.instagram.com/pushpendra_dream">Instagram</a>
           </ContactText>
         </Inner>
         <Footer>
