@@ -196,7 +196,6 @@ module.exports = {
   fonts: {
     sans: [
       '"Open Sans"',
-      'Cantata One',
       '-apple-system',
       'BlinkMacSystemFont',
       'Segoe UI',
@@ -210,7 +209,8 @@ module.exports = {
       'sans-serif',
     ],
     serif: [
-      '"Raleway"',
+      '"Cantata One"',
+      'Raleway',
       'Constantia',
       'Lucida Bright',
       'Lucidabright',

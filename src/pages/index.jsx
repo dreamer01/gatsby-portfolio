@@ -2,7 +2,6 @@
 import React from 'react';
 import styled from 'react-emotion';
 import 'typeface-raleway';
-import 'typeface-cantata-one';
 import { Parallax, ParallaxLayer } from 'react-spring/dist/addons';
 import SEO from '../components/SEO';
 import SVG from '../components/SVG';
@@ -63,6 +62,7 @@ const Title = styled.h1`
 const Subtitle = styled.p`
   ${tw('text-2xl lg:text-4xl font-sans text-white mt-8 xxl:w-3/4')};
   text-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+  font-family: "Raleway";
 `;
 
 const ProjectsWrapper = styled.div`
@@ -97,15 +97,17 @@ const AboutHero = styled.div`
 `;
 
 const Avatar = styled.img`
-  ${tw('rounded-full w-32 xl:w-48 shadow-lg h-auto')};
+  ${tw('rounded-full w-48 xl:w-48 shadow-lg h-auto')};
 `;
 
 const AboutSub = styled.span`
   ${tw('text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl')};
+  font-family: "Raleway";
 `;
 
 const AboutDesc = styled.p`
   ${tw('text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify')};
+  font-family: "Raleway";
 `;
 
 const ContactText = styled.p`
@@ -252,7 +254,7 @@ const Index = () => (
         <Inner>
           <Title>About</Title>
           <AboutHero>
-            <Avatar src={avatar} alt="John Doe" />
+            <Avatar src={avatar} alt="Pushpendra Singh" />
             <AboutSub>
               The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
               Emoji into my speech to better express myself. Winky face.
