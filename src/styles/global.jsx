@@ -1,5 +1,5 @@
 /* eslint no-unused-expressions: 0 */
-import { injectGlobal } from 'emotion';
+import { injectGlobal } from "emotion";
 
 injectGlobal`
   *, *:before, *:after {
